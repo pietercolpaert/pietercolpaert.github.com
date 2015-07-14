@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html prefix="dct: http://purl.org/dc/terms/
+              rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+              foaf: http://xmlns.com/foaf/0.1/">
 
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content=".about : The personal site of Pieter Colpaert">
+    <meta name="description" content="The personal site of Pieter Colpaert">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>.about</title>
+    <title>Pieter Colpaert</title>
   </head>
 
   <body>
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
-        <header class="inner">
-
-          <h1 id="project_title">Pieter Colpaert</h1>
-          <h2 id="project_tagline">Researching cost-efficient Linked Transport Data publishing methods</h2>
-          
+        <header class="inner" typeof="foaf:Person" resource="http://pieter.pm/#me">
+          <h1 id="project_title" property="foaf:name">Pieter Colpaert</h1>
+          <h2 id="project_tagline" property="dct:description">Researching cost-efficient Linked Transport Data publishing methods</h2>
+          <meta property="foaf:depiction" resource="https://secure.gravatar.com/avatar/4d3cdc809a159635d9f59fff0e683659"/>
+          <meta property="foaf:homepage" resource="http://pieter.pm/"/>
+          <meta property="foaf:phone" resource="tel:+32486747122"/>
+          <meta property="foaf:workplaceHomepage" resource="http://mmlab.be"/>
         </header>
     </div>
 
