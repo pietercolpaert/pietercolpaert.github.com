@@ -1,0 +1,88 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix datex: <http://vocab.datex.org/terms#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+
+<https://stad.gent/id/parking/P10>
+  owl:sameAs <http://linkedgeodata.org/triplify/node204735155> ;
+  a datex:UrbanParkingSite ;
+  rdfs:label "P10 Sint-Pietersplein" ;
+  dc:description "Sint-Pietersplein" ;
+  datex:parkingNumberOfSpaces "708" ;
+  datex:parkingNumberOfVacantSpaces "598" ;
+  datex:parkingSiteStatus "spacesAvailable" ;
+  datex:parkingSiteOpeningStatus "open" .
+
+<https://stad.gent/id/parking/P7>
+  a datex:UrbanParkingSite ;
+  rdfs:label "P07 Sint-Michiels" ;
+  dc:description "Sint-Michiels" ;
+  datex:parkingNumberOfSpaces "450" ;
+  datex:parkingNumberOfVacantSpaces "343" ;
+  datex:parkingSiteStatus "spacesAvailable" ;
+  datex:parkingSiteOpeningStatus "open" .
+
+<https://stad.gent/id/parking/P1>
+  a datex:UrbanParkingSite ;
+  rdfs:label "P01 Vrijdagmarkt" ;
+  dc:description "Vrijdagmarkt" ;
+  datex:parkingNumberOfSpaces "647" ;
+  datex:parkingNumberOfVacantSpaces "427" ;
+  datex:parkingSiteStatus "spacesAvailable" ;
+  datex:parkingSiteOpeningStatus "open" .
+
+<https://stad.gent/id/parking/P4>
+  a datex:UrbanParkingSite ;
+  rdfs:label "P04 Savaanstraat" ;
+  dc:description "Savaanstraat" ;
+  datex:parkingNumberOfSpaces "540" ;
+  datex:parkingNumberOfVacantSpaces "363" ;
+  datex:parkingSiteStatus "spacesAvailable" ;
+  datex:parkingSiteOpeningStatus "open" .
+
+<https://stad.gent/id/parking/P8>
+  a datex:UrbanParkingSite ;
+  rdfs:label "P08 Ramen" ;
+  dc:description "Ramen" ;
+  datex:parkingNumberOfSpaces "266" ;
+  datex:parkingNumberOfVacantSpaces "164" ;
+  datex:parkingSiteStatus "spacesAvailable" ;
+  datex:parkingSiteOpeningStatus "open" .
+
+<https://stad.gent/id/parking/P2>
+  a datex:UrbanParkingSite ;
+  rdfs:label "P02 Reep" ;
+  dc:description "Reep" ;
+  datex:parkingNumberOfSpaces "470" ;
+  datex:parkingNumberOfVacantSpaces "289" ;
+  datex:parkingSiteStatus "spacesAvailable" ;
+  datex:parkingSiteOpeningStatus "open" .
+
+<http://pieter.pm/parkingtest.ttl#dataset> hydra:search <http://pieter.pm/parkingtest.ttl#search> .
+<http://pieter.pm/parkingtest.ttl> void:count "200" .
+<http://pieter.pm/parkingtest.ttl#search>
+  hydra:template "http://pieter.pm/parkingtest.ttl" ;
+  hydra:mapping <http://pieter.pm/parkingtest.ttl#mappingS>, <http://pieter.pm/parkingtest.ttl#mappingP>, <http://pieter.pm/parkingtest.ttl#mappingO> .
+
+<http://pieter.pm/parkingtest.ttl#mappingS>
+  hydra:variable "s" ;
+  hydra:property rdf:subject .
+
+<http://pieter.pm/parkingtest.ttl#mappingP>
+  hydra:variable "p" ;
+  hydra:property rdf:predicate .
+
+<http://pieter.pm/parkingtest.ttl#mappingO>
+  hydra:variable "o" ;
+  hydra:property rdf:object .
+
+<http://pieter.pm/parkingtest.ttl>
+  rdfs:label "Dynamic parking data in Ghent" ;
+  rdfs:comment "This document is a mapping from the Datex2 by Pieter Colpaert as part of the Open Transport Net project" ;
+  foaf:homepage <https://github.com/opentransportnet/ghent-datex2-to-linkeddata> ;
+  cc:license <https://data.stad.gent/algemene-licentie> .
