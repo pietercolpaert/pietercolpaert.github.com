@@ -14,52 +14,57 @@
   rdfs:label "P10 Sint-Pietersplein" ;
   dc:description "Sint-Pietersplein" ;
   datex:parkingNumberOfSpaces "708" ;
-  datex:parkingNumberOfVacantSpaces "598" ;
+  datex:parkingNumberOfVacantSpaces "601" ;
   datex:parkingSiteStatus "spacesAvailable" ;
   datex:parkingSiteOpeningStatus "open" .
 
 <https://stad.gent/id/parking/P7>
+  owl:sameAs <http://linkedgeodata.org/triplify/node310469809> ;
   a datex:UrbanParkingSite ;
   rdfs:label "P07 Sint-Michiels" ;
   dc:description "Sint-Michiels" ;
   datex:parkingNumberOfSpaces "450" ;
-  datex:parkingNumberOfVacantSpaces "343" ;
+  datex:parkingNumberOfVacantSpaces "326" ;
   datex:parkingSiteStatus "spacesAvailable" ;
   datex:parkingSiteOpeningStatus "open" .
 
 <https://stad.gent/id/parking/P1>
+  owl:sameAs <http://linkedgeodata.org/triplify/node2547503851> ;
   a datex:UrbanParkingSite ;
   rdfs:label "P01 Vrijdagmarkt" ;
   dc:description "Vrijdagmarkt" ;
   datex:parkingNumberOfSpaces "647" ;
-  datex:parkingNumberOfVacantSpaces "427" ;
+  datex:parkingNumberOfVacantSpaces "470" ;
   datex:parkingSiteStatus "spacesAvailable" ;
   datex:parkingSiteOpeningStatus "open" .
 
 <https://stad.gent/id/parking/P4>
+  owl:sameAs <http://linkedgeodata.org/triplify/node346358328> ;
   a datex:UrbanParkingSite ;
   rdfs:label "P04 Savaanstraat" ;
   dc:description "Savaanstraat" ;
   datex:parkingNumberOfSpaces "540" ;
-  datex:parkingNumberOfVacantSpaces "363" ;
+  datex:parkingNumberOfVacantSpaces "416" ;
   datex:parkingSiteStatus "spacesAvailable" ;
   datex:parkingSiteOpeningStatus "open" .
 
 <https://stad.gent/id/parking/P8>
+  owl:sameAs <http://linkedgeodata.org/triplify/node497394185> ;
   a datex:UrbanParkingSite ;
   rdfs:label "P08 Ramen" ;
   dc:description "Ramen" ;
   datex:parkingNumberOfSpaces "266" ;
-  datex:parkingNumberOfVacantSpaces "164" ;
+  datex:parkingNumberOfVacantSpaces "170" ;
   datex:parkingSiteStatus "spacesAvailable" ;
   datex:parkingSiteOpeningStatus "open" .
 
 <https://stad.gent/id/parking/P2>
+  owl:sameAs <http://linkedgeodata.org/triplify/node1310104245> ;
   a datex:UrbanParkingSite ;
   rdfs:label "P02 Reep" ;
   dc:description "Reep" ;
   datex:parkingNumberOfSpaces "470" ;
-  datex:parkingNumberOfVacantSpaces "289" ;
+  datex:parkingNumberOfVacantSpaces "350" ;
   datex:parkingSiteStatus "spacesAvailable" ;
   datex:parkingSiteOpeningStatus "open" .
 
