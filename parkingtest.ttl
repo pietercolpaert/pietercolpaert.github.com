@@ -69,7 +69,7 @@
   datex:parkingSiteOpeningStatus "open" .
 
 <http://pieter.pm/parkingtest.ttl#dataset> hydra:search <http://pieter.pm/parkingtest.ttl#search> .
-<http://pieter.pm/parkingtest.ttl> void:count "200" .
+<http://pieter.pm/parkingtest.ttl> void:triples "200" .
 <http://pieter.pm/parkingtest.ttl#search>
   hydra:template "http://pieter.pm/parkingtest.ttl" ;
   hydra:mapping <http://pieter.pm/parkingtest.ttl#mappingS>, <http://pieter.pm/parkingtest.ttl#mappingP>, <http://pieter.pm/parkingtest.ttl#mappingO> .
